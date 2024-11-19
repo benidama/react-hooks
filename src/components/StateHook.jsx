@@ -31,7 +31,6 @@ const StateHook = () => {
         className="text-3xl text-cyan-600"
         onClick={() => setCount((co) => (co = 0))}
       >
-        {" "}
         Reset
       </p>
     </div>
