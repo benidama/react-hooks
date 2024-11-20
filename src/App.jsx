@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import StateHook from "./components/StateHook";
 import EffectHook from "./components/EffectHook";
+import UseContext from "./components/UseContext";
+import UseContext2 from "./components/UseContext2";
 
 function App() {
   const object = {
@@ -39,6 +41,8 @@ function App() {
       <StateHook />
       <EffectHook name={"John"} />
       <EffectHook name={object.name} />
+      <UseContext />
+      <UseContext2 />
     </>
   );
 }
