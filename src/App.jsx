@@ -6,6 +6,11 @@ import StateHook from "./components/StateHook";
 import EffectHook from "./components/EffectHook";
 
 function App() {
+  const object = {
+    name: "Anni",
+    age: 23,
+    country: "Rwanda",
+  };
   const [count, setCount] = useState(0);
 
   return (
@@ -32,7 +37,8 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <StateHook />
-      <EffectHook />
+      <EffectHook name={"John"} />
+      <EffectHook name={object.name} />
     </>
   );
 }
