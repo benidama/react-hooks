@@ -6,6 +6,7 @@ import StateHook from "./components/StateHook";
 import EffectHook from "./components/EffectHook";
 import UseContext from "./components/UseContext";
 import UseContext2 from "./components/UseContext2";
+import NewHook from "./components/NewHook";
 
 function App() {
   const object = {
@@ -43,6 +44,7 @@ function App() {
       <EffectHook name={object.name} />
       <UseContext />
       <UseContext2 />
+      <NewHook />
     </>
   );
 }
