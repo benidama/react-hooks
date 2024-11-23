@@ -18,6 +18,10 @@ const EffectHook = (prop) => {
       <p>My color is {color}</p>
       <h4>My country is {tru.country}.</h4>
       <p>I have a child called {props}</p>
+      <p>
+        This page is amazing one because it is the one with high priority and we
+        are here to discuss in many things.
+      </p>
     </div>
   );
 };

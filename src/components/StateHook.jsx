@@ -33,6 +33,7 @@ const StateHook = () => {
       >
         Reset
       </p>
+      <p>UseState is biggest hook with high role in the all states</p>
     </div>
   );
 };
