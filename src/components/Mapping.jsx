@@ -1,15 +1,14 @@
 function Car(props) {
-  return <li>I am a {props.brand}</li>;
+  return <h1>I am {props.try}</h1>;
 }
 
 function Mapping() {
-  const cars = ["Ford", "BMW", "Audi"];
+  const array = ["John", "Benimana", "Damascene"];
   return (
     <>
-      <h1>Who lives in my garage?</h1>
       <ul>
-        {cars.map((car) => (
-          <Car brand={car} />
+        {array.map((ek) => (
+          <Car try={ek} />
         ))}
       </ul>
     </>
