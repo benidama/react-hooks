@@ -7,7 +7,7 @@ import EffectHook from "./components/EffectHook";
 import UseContext from "./components/UseContext";
 import UseContext2 from "./components/UseContext2";
 import NewHook from "./components/NewHook";
-import Garage from "./components/Garage";
+import Mapping from "./components/Mapping";
 
 function App() {
   const object = {
@@ -45,7 +45,7 @@ function App() {
       <EffectHook name={object.name} />
       <UseContext />
       <UseContext2 />
-      <Garage />
+      <Mapping />
       <NewHook />
     </>
   );
