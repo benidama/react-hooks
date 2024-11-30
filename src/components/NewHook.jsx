@@ -37,6 +37,7 @@ function NewHook() {
 
   return (
     <>
+      <h1>I am always looking forward</h1>
       {todos.map((todo) => (
         <div key={todo.id}>
           <label>
@@ -49,6 +50,7 @@ function NewHook() {
           </label>
         </div>
       ))}
+      <p>I will use all my energies in order to achieve my goal.</p>
     </>
   );
 }
